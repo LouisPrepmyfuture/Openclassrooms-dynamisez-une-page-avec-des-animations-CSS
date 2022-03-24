@@ -1,8 +1,42 @@
+*, ::after, ::before {
+  box-sizing: border-box; }
+
+html {
+  margin: 0;
+  font-family: 'Raleway', sans-serif; }
+
 body {
-  color: #fff;
-  font-size: 20px; }
+  color: #000;
+  font-size: 20px;
+  background-color: #fff;
+  max-width: 750px; }
 
 h1 {
-  font-size: 20px; }
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+.menu {
+  box-shadow: 0 5px #000; }
+  .menu img {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0; }
+
+.localisation {
+  background-color: #eae7e7; }
+  .localisation span {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0; }
+
+.presentation {
+  background-color: #eeeeee;
+  text-align: center;
+  width: 100%;
+  padding: 50px 20px; }
+  .presentation p {
+    margin-bottom: 40px;
+    line-height: 26px; }
 
 /*# sourceMappingURL=style.css.map */
