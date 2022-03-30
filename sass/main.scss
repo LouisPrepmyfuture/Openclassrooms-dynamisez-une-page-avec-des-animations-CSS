@@ -24,9 +24,19 @@ h1{
   font-size: 30px;
   margin-bottom: 20px;
 }
+h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+ul{
+  list-style: none;
+  li{
+    margin-bottom: 10px;
+  }
+}
 
 .menu{
-  box-shadow: 0 5px #000;
+  box-shadow: 0 10px #000;
  img{
    width: 200px;
    display: block;
@@ -53,4 +63,143 @@ h1{
     margin-bottom: 40px;
     line-height: 26px;
   }
+}
+
+.btn{
+  padding: 15px;
+  font-size: 18px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 6px 9px #000;
+  &.btn-primary{
+    background-color: $primary;
+    color: $white;
+  }
+}
+
+section{
+  padding: 20px;
+}
+
+.restaurants{
+  background-color: $grey;
+}
+
+.list-card{
+ padding: 0 20px;
+ .card{
+   margin-bottom: 20px;
+ }
+}
+.card{
+  padding: 20px;
+  background-color: $grey;
+  position: relative;
+  border-radius: 20px;
+
+  &-body{
+    .box-round{
+    position: absolute;
+    background-color: #9356DC;
+    left: -10px;
+    padding: 3px 8px;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 18px;
+    }
+    i{
+    margin: 0 20px;
+    }
+  }
+}
+.card-menu{
+  padding: 14px;
+  background-color: $white;
+  border-radius: 20px;
+  .card-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.line-title{
+  width: 50px;
+  background: green;
+  height: 4px;
+  margin: 4px 0 15px;
+}
+.card-img {
+  background-color: $white;
+  border-radius: 20px;
+  box-shadow: 0px 6px 17px var(--color-thirdly);
+  margin: 20px;
+
+  .card-image{
+    $height:200px;
+
+    width: 100%;
+    height: $height;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+    img{
+      width: 100%;
+      height: $height;
+      object-fit: cover;
+      object-position: center center;
+    }
+    .new{
+      color: rgb(132, 199, 135);
+      background-color: rgb(160, 229, 163);
+      padding: 5px 10px;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 16px;
+    }
+  }
+  .card-body{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    i{
+      font-size: 30px;
+    }
+    .card-title{
+      font-size: 20px;
+      margin-top: 10px;
+      h4{
+        margin-bottom: 10px;
+      }
+
+    }
+  }
+}
+.menu-resto{
+  width: 100%;
+  border-radius: 50px 50px 0 0;
+  background-color: #eeeeee;
+  margin-top: -116px;
+  overflow: overlay;
+}
+.img-menu{
+  width: 100%;
+}
+footer{
+  background-color:rgb(47, 47, 47);
+  color: $white;
+  padding: 20px;
+  h5{
+    margin-bottom: 20px;
+  }
+  
 }
