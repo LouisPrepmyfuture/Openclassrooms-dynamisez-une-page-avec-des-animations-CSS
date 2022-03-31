@@ -1,6 +1,7 @@
 *, ::after, ::before{
   box-sizing: border-box;
-} 
+}
+// var
 $primary: #9356DC;
 $secondary: #ff76da;
 $tertiary:#99e2d0;
@@ -8,7 +9,9 @@ $tertiary:#99e2d0;
 $grey:#eeeeee;
 $grey-darker:rgb(234, 231, 231);
 $white:#fff;
+// end var
 
+// balise
 html{
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -19,7 +22,15 @@ body{
   background-color: $white;
   max-width: 750px;
 }
-
+section{
+  padding: 20px;
+}
+img{
+  width: 100%;
+}
+a{
+  color: #000;
+}
 h1{
   font-size: 30px;
   margin-bottom: 20px;
@@ -34,37 +45,91 @@ ul{
     margin-bottom: 10px;
   }
 }
+footer{
+  background-color:rgb(47, 47, 47);
+  color: $white;
+  padding: 20px;
+  h5{
+    margin-bottom: 20px;
+  }
+  
+}
+// end balise
 
-.menu{
+//nav
+nav{
   box-shadow: 0 10px #000;
+  position: relative;
  img{
    width: 200px;
    display: block;
    margin: 0 auto;
    padding: 20px 0;
  }
+ a{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  font-size: 30px;
+ }
 }
+// end nav
 
-.localisation{
-  background-color: $grey-darker;
-  span{
-    display: flex;
-    justify-content: center;
-    padding:15px 0 ;
-  }
-}
+// Page
+  // index
+    .localisation{
+      background-color: $grey-darker;
+      span{
+        display: flex;
+        justify-content: center;
+        padding:15px 0 ;
+      }
+    }
+    .container-restaurants{
+      background-color: $grey;
+    }
+  // end index
 
-.presentation{
-  background-color: $grey;
-  text-align: center;
-  width: 100%;
-  padding: 50px 20px;
-  p{
-    margin-bottom: 40px;
-    line-height: 26px;
-  }
-}
+  // carte restaurant
+    .presentation{
+      background-color: $grey;
+      text-align: center;
+      width: 100%;
+      padding: 50px 20px;
+      p{
+        margin-bottom: 40px;
+        line-height: 26px;
+      }
+    }
+    .menu-resto{
+      width: 100%;
+      border-radius: 50px 50px 0 0;
+      background-color: #eeeeee;
+      margin-top: -116px;
+      overflow: overlay;
+    }
+    .bloc-menu{
+      .card-menu{
+        margin-top: 20px;
+      }
+    }
+    .title-restaurant{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 40px;
+      margin-bottom: 50px;
+      h1{
+        margin-bottom: 0;
+        font-size: 40px;
+      }
+    }
+  // end index
+// end page
 
+
+
+// button
 .btn{
   padding: 15px;
   font-size: 18px;
@@ -78,21 +143,16 @@ ul{
     color: $white;
   }
 }
+// end button
 
-section{
-  padding: 20px;
-}
-
-.restaurants{
-  background-color: $grey;
-}
-
+// card
 .list-card{
- padding: 0 20px;
- .card{
-   margin-bottom: 20px;
+  padding: 0 20px;
+  .card{
+    margin-bottom: 20px;
+  }
  }
-}
+
 .card{
   padding: 20px;
   background-color: $grey;
@@ -101,19 +161,20 @@ section{
 
   &-body{
     .box-round{
-    position: absolute;
-    background-color: #9356DC;
-    left: -10px;
-    padding: 3px 8px;
-    border-radius: 35px;
-    color: #fff;
-    font-size: 18px;
+      position: absolute;
+      background-color: #9356DC;
+      left: -10px;
+      padding: 3px 8px;
+      border-radius: 35px;
+      color: #fff;
+      font-size: 18px;
     }
     i{
-    margin: 0 20px;
+     margin: 0 20px;
     }
   }
 }
+
 .card-menu{
   padding: 14px;
   background-color: $white;
@@ -184,22 +245,4 @@ section{
     }
   }
 }
-.menu-resto{
-  width: 100%;
-  border-radius: 50px 50px 0 0;
-  background-color: #eeeeee;
-  margin-top: -116px;
-  overflow: overlay;
-}
-.img-menu{
-  width: 100%;
-}
-footer{
-  background-color:rgb(47, 47, 47);
-  color: $white;
-  padding: 20px;
-  h5{
-    margin-bottom: 20px;
-  }
-  
-}
+// end card
