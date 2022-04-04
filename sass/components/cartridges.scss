@@ -1,0 +1,23 @@
+.cartridge{
+  border-radius: 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-size: 30px;
+  padding: 20px 0;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+  .box-round{
+    position: absolute;
+    background-color: #9356DC;
+    left: -10px;
+    padding: 3px 8px;
+    border-radius: 35px;
+    color: #fff;
+    font-size: 18px;
+  }
+  i {
+    margin: 0 10%;
+  }
+}

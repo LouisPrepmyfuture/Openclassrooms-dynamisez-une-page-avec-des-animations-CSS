@@ -1,0 +1,14 @@
+.card-menu{
+  padding: 14px;
+  background-color: $white;
+  border-radius: 20px;
+  .card-title{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
