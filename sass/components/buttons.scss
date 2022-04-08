@@ -1,0 +1,13 @@
+.btn{
+  padding: 15px;
+  font-size: 18px;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 6px 9px #000;
+  &.btn-primary{
+    background-color: $primary;
+    color: $white;
+  }
+}

@@ -1,13 +1,15 @@
 .cartridge{
   border-radius: 20px;
   display: flex;
-  position: relative;
-  align-items: center;
   font-size: 30px;
-  padding: 20px 0;
   margin-bottom: 20px;
   width: 100%;
   max-width: 500px;
+  &-primary{
+    position: relative;
+    align-items: center;
+    padding: 20px 0;
+  }
   .box-round{
     position: absolute;
     background-color: #9356DC;
@@ -19,5 +21,44 @@
   }
   i {
     margin: 0 10%;
+  }
+  &-link{
+    justify-content: space-between;
+    overflow: hidden;
+
+    .title{
+      font-size:20px;
+      padding:20px 0 20px 15px;
+      h3{
+        margin-bottom: 10px;
+      }
+    }
+    .price{
+      align-self:end;
+      padding-bottom:20px;
+      font-weight: bold;
+      font-size:20px;
+    }
+    .check{
+      color: #fff;
+      background-color: $tertiary;
+      width: 70px;
+      margin-right: -75px;  
+      i{
+        text-align: center;
+        margin-top: 29px;
+        display: block;
+      }
+    }
+    &:hover{
+      .check{
+        margin-right:0px;
+      }
+    }
+    &:visited{
+      .check{
+        margin-right:0px;
+      }
+    }
   }
 }
