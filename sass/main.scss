@@ -5,11 +5,13 @@
 *, ::after, ::before{
   box-sizing: border-box;
 }
+@import "animation/animation";
 
 @import "components/cards";
 @import "components/buttons";
 @import "components/forms";
 @import "components/cartridges";
+@import "components/loaders";
 
 @import "layout/header";
 @import "layout/content";
@@ -24,14 +26,7 @@ html{
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
-body{
-  color:#000;
-  font-size: 20px;
-  background-color: $white;
-}
-section{
-  padding: 20px;
-}
+
 img{
   width: 100%;
 }

@@ -3,12 +3,14 @@
   border-radius: 50px 50px 0 0;
   background-color: #FFF;
   margin-top: -116px;
+  padding:20px;
   overflow: overlay;
+
 }
 
 .title-restaurant{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 40px;
   margin-bottom: 50px;
@@ -18,9 +20,9 @@
     font-size: 40px;
   }
 }
+
 .menu-title{
   font-weight: normal;
-  padding-left:25px;
   h2{
     margin-bottom: 10px;
   }
