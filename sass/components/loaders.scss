@@ -10,11 +10,10 @@
   right: 0;
   bottom: 0;
   z-index: -1;
-  animation: loader 3s;
+  animation: loader 5s;
   i{
-    animation: roll 2.4s;
+    animation: roll 3s;
     font-size: 60px;
     color: $primary;
   }
-  
 }

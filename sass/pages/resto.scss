@@ -2,10 +2,15 @@
   width: 100%;
   border-radius: 50px 50px 0 0;
   background-color: #FFF;
-  margin-top: -116px;
-  padding:20px;
-  overflow: overlay;
+  padding: 20px;
+  z-index: 2010;
+  position: relative;
+  top: -100px;
 
+  h2 {
+    font-size: 25px;
+    font-weight: 100;
+  } 
 }
 
 .title-restaurant{
@@ -15,6 +20,7 @@
   font-size: 40px;
   margin-bottom: 50px;
   margin-top: 20px;
+
   h1{
     margin-bottom: 0;
     font-size: 40px;

@@ -1,7 +1,16 @@
 .bg-color-grey{
   background-color: $grey;
 }
+.txt-color-primary{
+  color: $primary;
+}
+.bg-color-secondary{
+  background-color: $secondary;
+}
 
+.bg-color-secondary-03{
+  background-color: rgba($color: $secondary, $alpha: 0.2);
+}
 .aligne-center{
   text-align: center;
 }

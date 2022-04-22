@@ -1,5 +1,6 @@
 
 form{
+  
   input{
   width: 100%;
   height: 65px;
@@ -7,4 +8,8 @@ form{
   font-size: 25px;
   border:none;
   }
+}
+input[type="text"]
+{
+  font-family: 'Raleway', sans-serif;
 }

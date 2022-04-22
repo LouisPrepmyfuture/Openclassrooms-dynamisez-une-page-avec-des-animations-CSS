@@ -1,8 +1,7 @@
 .btn{
-  padding: 15px;
+  padding: 20px;
   font-size: 18px;
-  padding: 15px;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 30px;
   border: none;
   box-shadow: $shadow-primary;
@@ -20,18 +19,22 @@
 .btn-coeur{
   background-color: transparent;
   border: none;
-  font-size: 30px;
+  font-size: 40px;
+  position: relative;
+  transition: 1s;
+  transition-property: opacity;
  
   .plien{
-    display:none;
+    opacity: 0;
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+    transition: opacity 1s ease-out;
   }
   &:hover{
     .plien{
       color: $primary;
-      display: inline;
-    }
-    .vide{
-      display:none;
+      opacity: 1;
     }
   }
   
