@@ -1,10 +1,9 @@
 @import "base/normalize";
 @import "helpers/variables";
 @import "helpers/helpers";
+@import "base/base";
 
-*, ::after, ::before{
-  box-sizing: border-box;
-}
+
 @import "animation/animation";
 
 
@@ -20,75 +19,3 @@
 
 @import "pages/home";
 @import "pages/resto";
-
-
-// balise
-html{
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-}
-.logo-svg{
-  width: 200px;
-  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(321deg) brightness(109%) contrast(101%);
-  margin-bottom: 20px;
-}
-img{
-  width: 100%;
-}
-a{
-  color: #000;
-}
-h1{
-  font-size: 40px;
-  margin-bottom: 20px;
-  font-family: 'Shrikhand', cursive;
-}
-h2{
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-ul{
-  list-style: none;
-  li{
-    margin-bottom: 17px;
-    font-size: 22px;
-  }
-}
-
-// end balise
-
-//nav
-nav{
-  box-shadow: 0 10px #000;
-  position: relative;
- img{
-   width: 200px;
-   display: block;
-   margin: 0 auto;
-   padding: 20px 0;
- }
- a{
-  position: absolute;
-  top: 20px;
-  left: 50px;
-  font-size: 30px;
- }
-}
-// end nav
-
-// Page
-  // index
-
-    .container-restaurants{
-      background-color: $grey;
-    }
-  // end index
-
-  // carte restaurant
- 
-  
-    .bloc-menu{
-      .card-menu{
-        margin-top: 20px;
-      }
-    }

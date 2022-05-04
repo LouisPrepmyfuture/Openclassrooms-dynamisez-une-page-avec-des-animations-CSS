@@ -35,15 +35,15 @@
 
 .animation_cartridge-link{
   a:nth-child(1){
-    animation: slideDown 3s;
-  }
-  a:nth-child(2){
-    animation: slideDown 3.5s;
-  }
-  a:nth-child(3){
     animation: slideDown 4s;
   }
-  a:nth-child(4){
+  a:nth-child(2){
     animation: slideDown 4.5s;
+  }
+  a:nth-child(3){
+    animation: slideDown 5s;
+  }
+  a:nth-child(4){
+    animation: slideDown 5.5s;
   }
 }
