@@ -399,7 +399,6 @@ input[type=text] {
   width: 60%;
 }
 .cartridge-link:hover i {
-  transform: rotate(360deg);
   animation: roll 1s;
 }
 .cartridge-link:hover .check {
@@ -418,7 +417,7 @@ input[type=text] {
   right: 0;
   bottom: 0;
   z-index: -1;
-  animation: loader 5s;
+  animation: loader 3s;
 }
 .loader i {
   animation: roll 3s;
